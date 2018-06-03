@@ -1,0 +1,89 @@
+.navbar-default {
+  background: #fff;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto;
+}
+
+h1{
+  color: pink;
+}
+
+p {
+  font-family: Raleway;
+}
+
+.btn {
+  color: #db90b2;
+}
+
+.navbar-brand{
+  font-size: 20px;
+  color: pink !important;
+  font-weight: bold;
+}
+
+body {
+  margin-top: 70px;
+  font-size: 16px;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#showcase img{
+  width: 90%;
+  margin-top: -15%;
+  margin-left: -20px;
+}
+
+#showcase .showcase-right{
+  margin-top: 90px;
+}
+
+#testimonial{
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p{
+  font-size: 32px;
+  font-family: 'Josefin Sans'
+  color: black;
+}
+
+#testimonial p.customer{
+  font-size: 20px;
+  color: #666
+}
+
+#info1 .info-right{
+  margin-top: 90px;
+}
+
+#info2{
+  margin-left: 20px 0 60px 0;
+}
+
+#contact{
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 40px;
+  color: #fff;
+  border-top: #333 7px solid;
+  border-bottom: #333 7px solid;
+}
+
+footer {
+  padding: 40px;
+}
