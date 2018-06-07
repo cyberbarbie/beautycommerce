@@ -3,14 +3,45 @@
   border: 0;
 }
 
+.beautybox {
+  font-family: Parisienne;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Roboto;
+  color: pink;
+  text-align: center;
 }
+
+.about {
+    padding-bottom: 30px;
+    font-family: Parisienne;
+    font-weight: bold;
+    color: pink;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/
 
 h1{
   color: pink;
 }
-
+.rounded-circle{
+  border-radius: 50%;
+  text-align: center;
+}
 p {
   font-family: Raleway;
 }
@@ -55,7 +86,7 @@ body {
 }
 
 #testimonial p{
-  font-size: 32px;
+  font-size: 20px;
   font-family: 'Josefin Sans'
   color: black;
 }
@@ -65,25 +96,80 @@ body {
   color: #666
 }
 
-#info1 .info-right{
+#info3 .info-right{
   margin-top: 90px;
 }
+.card-flip {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+.card-flip:hover .flip, .card-flip.hover .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
 
-#info2{
+.card-flip,
+.front,
+.back {
+  width: 100%;
+  height: 480px;
+}
+
+.flip {
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+label{
+  color: white;
+  font-size: 14px;
+  font-family: Raleway;
+}
+
+#info4{
   margin-left: 20px 0 60px 0;
 }
 
-#contact{
-  background: #DAE2F8;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  padding: 40px;
-  color: #fff;
-  border-top: #333 7px solid;
-  border-bottom: #333 7px solid;
+.heart{
+  width: 300px;
 }
 
 footer {
   padding: 40px;
+}
+
+
+#contact {
+    background: #DAE2F8;
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8);
+    padding: 40px;
+}
+
+.form-control{
+  background-color: transparent;
+  color: white;
+
 }
