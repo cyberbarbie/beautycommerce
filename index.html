@@ -46,7 +46,7 @@
           <div class="showcase-right">
             <h1 class="main-text">Home-made, all-natural and splendid skin care delivered to your door</h1>
             <p>The best in personal care and beauty should not belong to the few. Our accessibility comes compromise-free. Recipes handed down from a healer make for potent 21st century cures.
-The best ingredients gathered from around the world and picked to complement perfectly.</p>
+            The best ingredients gathered from around the world and picked to complement perfectly.</p>
           </div>
           <br>
           <a class="btn btn-default btn-lg center-block">SHOP NOW</a>
@@ -88,18 +88,40 @@ The best ingredients gathered from around the world and picked to complement per
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
     <hr>
-    <div class="container marketing">
+
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <h1 class="about">Featured Products</h1>
+        <h1 class="about" id="shop">Shop</h1>
+        <div class="container marketing" id= "info1">
+          <!-- Three columns of text below the carousel -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 about-1">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3we0BJ45q-NUXGwzVfaRNSRfZIJ4uY2QOSKNX9LTxxUZo071" alt="Generic placeholder image" width="200" height="200">
+              <h2>Dark Chocolate Body Scrub</h2>
+              <p>Cupcake ipsum dolor sit. Amet bear claw donut halvah. Brownie chocolate muffin soufflé candy canes cheesecake toffee pastry. Sweet roll biscuit cake pie cotton candy topping candy canes. Carrot cake halvah topping sweet roll cotton candy.</p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 about-2">
+              <img src="https://cdn.cliqueinc.com/posts/229358/can-we-discuss-why-all-the-best-natural-brands-are-starting-to-look-like-twins-2315868.gif" alt="Generic placeholder image" width="200" height="200">
+              <h2>EarthMade Essentials For Men</h2>
+<p>Cupcake ipsum dolor sit. Amet bear claw donut halvah. Brownie chocolate muffin soufflé candy canes cheesecake toffee pastry. Sweet roll biscuit cake pie cotton candy topping candy canes. Carrot cake halvah topping sweet roll cotton candy.</p>              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 about-3">
+              <img src="https://www.psdmockups.com/wp-content/uploads/2016/09/Cosmetics-Packaging-PSD-Mockup-Scene-With-Tube-And-Bottle.jpg" alt="Generic placeholder image" width="200" height="200">
+              <h2>Eczema Elixir Beauty Collectiom</h2>
+<p>Cupcake ipsum dolor sit. Amet bear claw donut halvah. Brownie chocolate muffin soufflé candy canes cheesecake toffee pastry. Sweet roll biscuit cake pie cotton candy topping candy canes. Carrot cake halvah topping sweet roll cotton candy.</p>              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+          <hr>
 
-  <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 col-sm-5 col-xs-12">
-            <form>
-              <div class="form-group">
+
+        </div>
+        <section id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-12">
+                <form>
+                <div class="form-group">
                 <label>Name</label>
                 <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
               </div>
@@ -152,7 +174,7 @@ The best ingredients gathered from around the world and picked to complement per
         origin: 'bottom',
      });
      sr.reveal('#testimonial div', {
-        duration: 2000,
+        duration: 2500,
         origin: 'bottom',
      });
      sr.reveal('.info-left', {
@@ -180,7 +202,16 @@ The best ingredients gathered from around the world and picked to complement per
         origin: 'right',
         distance: '300px',
      });
-
+     sr.reveal('.btn', {
+        duration: 2500,
+        origin: 'right',
+        distance: '300px',
+     });
+     sr.reveal('#contact', {
+        duration: 2500,
+        origin: 'up',
+        distance: '300px',
+     });
    </script>
    </body>
    </html>

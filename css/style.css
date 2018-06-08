@@ -213,6 +213,9 @@ footer {
   padding: 40px;
 }
 
+.shop {
+
+}
 
 #contact {
     background: #DAE2F8;
@@ -222,7 +225,6 @@ footer {
 }
 
 .form-control{
-  background-color: transparent;
-  color: white;
-
+  background-color: rgba(255,255,255, 0.7);
+  color: #6c7c7a;
 }
