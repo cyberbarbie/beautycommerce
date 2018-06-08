@@ -1,5 +1,5 @@
 
-@media (min-width:340px) and (max-width: 640px) {
+@media (min-width:340px) and (max-width: 666px) {
   #showcase .main-text {
     text-align: center;
   }
@@ -13,9 +13,12 @@
   }
 }
 
-@media (min-width: 768px) and (max-width:992px){
+@media (min-width: 768px) and (max-width:1024px){
   #showcase img {
     text-align: left;
+  }
+  .main-image {
+    padding-top: 50%;
   }
 }
 
@@ -36,6 +39,11 @@
 
 .beautybox {
   font-family: Parisienne;
+}
+
+#testimonial .customers {
+  color: #605f63;
+  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -126,6 +134,7 @@ body {
   text-align: center;
   margin-top: 40px;
   color: white;
+  line-height: 1.6;
 }
 
 #testimonial p{
