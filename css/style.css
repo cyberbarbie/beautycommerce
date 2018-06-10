@@ -1,10 +1,5 @@
 
-@media screen and (max-width: 991px) {
-  .logo {
-    width: 40px;
-    height: 40px;
-    padding: 0px;
-  }
+@media (min-width:340px) and (max-width: 666px) {
   #showcase .main-text {
     text-align: center;
   }
@@ -13,84 +8,21 @@
     margin-left: 20px;
   }
 
+  .wrapper{
+    overflow-x: hidden;
+  }
+
   #showcase p {
     text-align: center;
   }
-  .mb-md50 {
-    margin-bottom: 50px;
-  }
-  .mb-md50 ul, .mb-md30 ul, .mb-md0 ul {
-    list-style-type: none;
-  }
+}
 
-  .mb-md30 {
-    margin-bottom: 30px;
+@media (min-width: 768px) and (max-width:1024px){
+  #showcase img {
+    text-align: left;
   }
-
-  .mb-md0 {
-    margin-bottom: 0;
-  }
-
-  .navbar .navbar-collapse {
-    max-height: 340px;
-    overflow: auto;
-    background: #111;
-    text-align: center;
-    padding: 10px 0;
-  }
-  .navbar .nav-link {
-    margin: 10px auto !important;
-  }
-
-  .nav-scroll {
-    height: 60px;
-  }
-
-  .nav-scroll .navbar-collapse .nav-link {
-    color: #fff !important;
-  }
-  .nav-scroll .navbar-collapse .active {
-    color: #F24259 !important;
-  }
-
-  .header .caption h2 {
-    font-size: 25px;
-  }
-  .header .caption h1 {
-    font-size: 32px;
-  }
-  .header .caption p {
-    font-size: 16px;
-  }
-
-  .serv-tabs .content .bord {
-    padding-right: 0;
-    margin-bottom: 50px;
-  }
-  .serv-tabs .content .bord:after {
-    display: none;
-  }
-  .serv-tabs .content .spcial {
-    padding-left: 0;
-  }
-
-  .contact .map {
-    height: 500px;
-  }
-  .contact .info .icon-toggle {
-    -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
-    top: calc(100% - 80px);
-    right: calc(50% - 65px);
-  }
-  .contact .info .icon-toggle i {
-    -webkit-transform: rotate(-135deg) !important;
-            transform: rotate(-135deg) !important;
-    right: 4px;
-  }
-  .contact .map-show {
-    top: -100%;
-    left: 0;
+  .main-image {
+    padding-top: 50%;
   }
 }
 
