@@ -1,7 +1,14 @@
 
-@media (min-width:340px) and (max-width: 666px) {
+@media (min-width:340px) and (max-width: 768px) {
   #showcase .main-text {
     text-align: center;
+  }
+
+  .navbar .navbar-collapse {
+    max-height: 340px;
+    overflow: auto;
+    text-align: center;
+    padding: 10px 0;
   }
 
   #showcase .main-image{
@@ -100,6 +107,7 @@ body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden !important;
+  padding-top: 70px;
 }
 h1{
   color: pink;
