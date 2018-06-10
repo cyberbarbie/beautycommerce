@@ -8,6 +8,10 @@
     margin-left: 20px;
   }
 
+  .wrapper{
+    overflow-x: hidden;
+  }
+
   #showcase p {
     text-align: center;
   }
