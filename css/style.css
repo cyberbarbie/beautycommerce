@@ -10,7 +10,7 @@
 
   #showcase p {
     text-align: center;
-  }
+  }z
 }
 
 @media (min-width: 768px) and (max-width:1024px){
@@ -29,7 +29,7 @@
 }
 
 .main-text{
-  center;
+  text-align: center;
 }
 
 .navbar-default {
@@ -81,6 +81,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: .75rem;
 }
 
+body {
+  overflow-x:hidden;
+}
 
 h1{
   color: pink;
