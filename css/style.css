@@ -1,33 +1,4 @@
 
-@media (min-width:340px) and (max-width: 666px) {
-  #showcase .main-text {
-    text-align: center;
-  }
-
-  #showcase .main-image{
-    margin-left: 20px;
-  }
-
-  #showcase p {
-    text-align: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width:1024px){
-  #showcase img {
-    text-align: left;
-  }
-  .main-image {
-    padding-top: 50%;
-  }
-}
-
-@media (min-width: 992px) and (max-width:1200px) {
-  #showcase img {
-    text-align: left;
-  }
-}
-
 .main-text{
   text-align: center;
 }
@@ -163,14 +134,6 @@ label{
   margin-left: 20px 0 60px 0;
 }
 
-.heart{
-  width: 300px;
-}
-
-footer {
-  padding: 40px;
-}
-
 #contact {
     background: #DAE2F8;
     background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);
@@ -181,4 +144,33 @@ footer {
 .form-control{
   background-color: rgba(255,255,255, 0.7);
   color: #6c7c7a;
+}
+
+@media (min-width:200px) and (max-width: 666px) {
+  #showcase .main-text {
+    text-align: center;
+  }
+
+  #showcase .main-image{
+    margin-left: 20px;
+  }
+
+  #showcase p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+  #showcase img {
+    text-align: left;
+  }
+  .main-image {
+    padding-top: 50%;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+  #showcase img {
+    text-align: left;
+  }
 }
